@@ -13,5 +13,5 @@ RUN docker-php-ext-configure zip --with-libzip \
     && a2enmod rewrite
 
 WORKDIR /var/www/html
-COPY ./app /var/www/html/
+COPY ./wordpress /var/www/html/
 
